@@ -1,0 +1,30 @@
+{
+  "name": "festivalmusica_inicio",
+  "version": "1.0.0",
+  "description": "Proyecto con Gulp, SASS y HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "gulp css",
+    "compiladorCSS": "gulp compiladorCSS"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoHerrera99/Festival-de-Musica.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Diego Herrera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiegoHerrera99/Festival-de-Musica/issues"
+  },
+  "homepage": "https://github.com/DiegoHerrera99/Festival-de-Musica#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.54.0"
+  }
+}
