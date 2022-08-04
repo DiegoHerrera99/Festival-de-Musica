@@ -1,4 +1,5 @@
 @use '../base/variables' as v;
+@use '../base/mixins' as m;
 
 .header{
     background-color: v.$verde;
@@ -8,6 +9,21 @@
 }
 
 .navegacion-principal{
+    background-color: red;
+
+    @include m.telefono{
+        background-color: blue;
+    }
+    @include m.tablet{
+        background-color: cornflowerblue;
+    }
+    @include m.desktop{
+        background-color: darkgreen;
+    }
+    @include m.desktopXL{
+        background-color:  cyan;
+    }
+
     a{
         color: v.$blanco;
         font-size: 2.4rem;
