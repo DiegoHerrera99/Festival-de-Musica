@@ -1,5 +1,5 @@
-$rojo: rgb(50, 120, 85);
+@use 'base';
 
 body{
-    background-color: $rojo;
+    background-color: base.$morado;
 }
